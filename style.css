@@ -1,0 +1,284 @@
+
+/* ========================================
+   TEMA PASTEL PINK & LAVENDER
+   Website Berita Pemweb
+======================================== */
+
+/* ===== BACKGROUND UTAMA ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF0F5;
+    color: #6D597A;
+    margin: 0;
+}
+
+/* ===== AREA KONTEN ===== */
+.container {
+    flex: 1;
+    color: #6D597A;
+}
+
+/* ===== KOTAK UTAMA ===== */
+#main {
+    background-color: #FFFAFD !important;
+    color: #6D597A !important;
+    border: 1px solid #F3D9E8 !important;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px rgba(194, 145, 175, 0.12) !important;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+/* ===== JUDUL HALAMAN ===== */
+#main h3 {
+    color: #B565A7 !important;
+    border-bottom: 1px solid #F0D6E8 !important;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* ===== JUDUL BERITA ===== */
+.judulberita {
+    margin-bottom: 15px;
+}
+
+.judulberita a {
+    color: #B565A7 !important;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.judulberita a:hover {
+    color: #E598C8 !important;
+    text-decoration: underline;
+}
+
+/* ===== JUDUL BERITA JIKA TIDAK MENGGUNAKAN LINK ===== */
+#main h4,
+#main h5 {
+    color: #B565A7 !important;
+}
+
+/* ===== TEKS UTAMA ===== */
+#main p {
+    color: #8E779B !important;
+    line-height: 1.8;
+}
+
+/* ===== TEKS INFORMASI BERITA ===== */
+#main .text-muted {
+    color: #9A8AA5 !important;
+}
+
+/* ===== GARIS PEMISAH ===== */
+#main hr {
+    border: 0;
+    border-top: 1px solid #EAD7E8;
+    opacity: 1;
+    margin: 30px 0;
+}
+
+/* ===== LINK UMUM ===== */
+a {
+    color: #B565A7;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #E598C8;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background-color: #F8C8DC !important;
+    box-shadow: 0 2px 8px rgba(181, 101, 167, 0.08);
+}
+
+/* Nama website */
+.navbar-brand {
+    color: #8E5572 !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-brand:hover {
+    color: #B565A7 !important;
+}
+
+/* Menu navigasi */
+.navbar .nav-link {
+    color: #8E5572 !important;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #B565A7 !important;
+}
+
+/* ===== TOMBOL ===== */
+.btn-primary {
+    background-color: #D291BC !important;
+    border-color: #D291BC !important;
+    color: #FFFFFF !important;
+}
+
+.btn-primary:hover {
+    background-color: #B565A7 !important;
+    border-color: #B565A7 !important;
+}
+
+.btn-success {
+    background-color: #A8CFA0 !important;
+    border-color: #A8CFA0 !important;
+    color: #355E3B !important;
+}
+
+.btn-success:hover {
+    background-color: #8DBB85 !important;
+    border-color: #8DBB85 !important;
+}
+
+.btn-secondary {
+    background-color: #C9B6D9 !important;
+    border-color: #C9B6D9 !important;
+    color: #51405F !important;
+}
+
+.btn-secondary:hover {
+    background-color: #B6A0CC !important;
+    border-color: #B6A0CC !important;
+}
+
+.btn-warning {
+    background-color: #F6D58A !important;
+    border-color: #F6D58A !important;
+    color: #735C25 !important;
+}
+
+.btn-danger {
+    background-color: #E9A3B2 !important;
+    border-color: #E9A3B2 !important;
+    color: #702C42 !important;
+}
+
+/* ===== FORM INPUT ===== */
+.form-control,
+.form-select {
+    background-color: #FFFFFF !important;
+    color: #6D597A !important;
+    border: 1px solid #E7C8DC !important;
+    border-radius: 8px;
+}
+
+/* Fokus input */
+.form-control:focus,
+.form-select:focus {
+    background-color: #FFFFFF !important;
+    color: #6D597A !important;
+    border-color: #D291BC !important;
+    box-shadow: 0 0 0 0.2rem rgba(210, 145, 188, 0.2) !important;
+}
+
+/* Placeholder */
+.form-control::placeholder {
+    color: #B09AAF !important;
+}
+
+/* Pilihan dropdown */
+.form-select option {
+    background-color: #FFFFFF;
+    color: #6D597A;
+}
+
+/* Label formulir */
+.form-label,
+.col-form-label {
+    color: #8E5572;
+    font-weight: 500;
+}
+
+/* ===== NOTIFIKASI BERHASIL ===== */
+.berhasil {
+    padding: 12px 20px;
+    background-color: #E2F0CB;
+    color: #52734D !important;
+    border: 1px solid #C5DFA5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* ===== NOTIFIKASI GAGAL ===== */
+.gagal {
+    padding: 12px 20px;
+    background-color: #FDE2E4;
+    color: #A63D55 !important;
+    border: 1px solid #F5B8C0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* ===== ALERT BOOTSTRAP ===== */
+.alert-success {
+    background-color: #E2F0CB !important;
+    color: #52734D !important;
+    border-color: #C5DFA5 !important;
+}
+
+.alert-danger {
+    background-color: #FDE2E4 !important;
+    color: #A63D55 !important;
+    border-color: #F5B8C0 !important;
+}
+
+/* ===== TABEL ===== */
+.table {
+    color: #6D597A !important;
+    border-color: #F0D6E8 !important;
+}
+
+.table thead th {
+    background-color: #F8C8DC !important;
+    color: #8E5572 !important;
+}
+
+.table tbody tr {
+    background-color: #FFFAFD !important;
+}
+
+.table tbody tr:hover {
+    background-color: #FFF0F5 !important;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #F8C8DC;
+    color: #8E5572;
+    padding: 15px;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* ===== RESPONSIVE UNTUK HP ===== */
+@media (max-width: 768px) {
+    #main {
+        padding: 18px !important;
+        border-radius: 12px;
+    }
+
+    #main h3 {
+        font-size: 1.4rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .judulberita {
+        font-size: 1.2rem;
+    }
+}
